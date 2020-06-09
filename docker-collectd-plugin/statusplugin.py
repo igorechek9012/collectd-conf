@@ -2,8 +2,8 @@ import collectd
 import docker
 
 containerStatus = {
-	'restarting': 3,
-	'running': 1,
+	'restarting': 1,
+	'running': 3,
 	'paused': 2,
 	'exited': 0
 }
